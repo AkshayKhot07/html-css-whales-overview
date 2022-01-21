@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+}
+
+/* HERO Section */
+
+.hero-container {
+  background-color: #1f2937;
+  /* color: white; */
+  /* padding-top: 20px; */
+  padding: 20px 400px 100px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-container h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-bottom: 10px;
+}
+
+.hero-container p,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-container button {
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px 20px;
+  background-color: #3882fe;
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hero-container .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  pointer-events: none;
+}
+
+.hero-container ul {
+  list-style: none;
+}
+
+.hero-container a {
+  text-decoration: none;
+}
+
+.header-links {
+  margin-bottom: 30px;
+}
+
+.header-links > ul {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header-links li {
+  margin: 0 10px;
+}
+
+.header-links .push-left {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.header-content {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Section 1 */
+
+.section-1 h2 {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.whale-types {
+  display: flex;
+  justify-content: center;
+}
+
+.whale-types .diff-whale {
+  margin: 20px;
+  text-align: center;
+  width: 220px;
+}
+
+.whale-types .diff-whale > img {
+  border: 5px solid #3882fe;
+  border-radius: 5px;
+}
+
+.whale-types .diff-whale > span {
+  color: #1f2937;
+}
+
+/* Section 2 */
+
+.section-2 {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.section-2 blockquote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.section-2 figcaption {
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Section 3 */
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-3-content {
+  background-color: #3882fe;
+  color: #f9faf8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 100px 0px;
+  padding: 50px 100px;
+}
+
+.section-3-content h2 {
+  font-size: 24px;
+}
+
+.section-3-content p {
+  font-size: 18px;
+}
+
+.section-3-content button {
+  background-color: #3882fe;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #f9faf8;
+  padding: 5px 25px;
+  border-radius: 2px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+}
